@@ -30,8 +30,8 @@ public class SalesforceCreateTask{
 		
 		driver.get("https://login.salesforce.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.findElement(By.id("username")).sendKeys("subha216@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("Sales@17431");
+		driver.findElement(By.id("username")).sendKeys("dharsinieee@gmail.com");
+		driver.findElement(By.id("password")).sendKeys("Archanadharsini07*");
 		driver.findElement(By.id("Login")).click();
 		
 		//Navigating to the Task Page
