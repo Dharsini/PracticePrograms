@@ -32,7 +32,7 @@ package mandatoryHomeWork.DSA;
     If the difference between nums[j] and nums[i] equals diff 
     and the difference between nums[k] and nums[j] equals diff
     Increment the count by 1
-    Move j and k to explore more potential triplets
+    Increment j and k to find more triplets
     Else if the differences are smaller
     Move k to find larger differences
     else Move j to find smaller differences
